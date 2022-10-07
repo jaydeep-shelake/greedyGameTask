@@ -1,0 +1,82 @@
+
+.from{
+    width: 550px;
+    padding: 40px;
+    position: fixed;
+    top: 120px;
+    right: 100px;
+    box-shadow: 0px 16px 50px #C7C7C75F;
+    z-index: 99;
+    background: #fff;
+}
+.from .from_upperInputs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.from_upperInputs .from_inputContainer{
+    width: 48%;
+    margin: 0px;
+}
+.from_upperInputs .from_inputContainer:nth-child(1){
+    margin-right: 20px;
+}
+.from_inputContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0;
+    
+}
+.from_inputContainer input{
+    width: 100%;
+    padding: 12px 10px;
+    
+}
+.from_inputContainer label{
+    margin-bottom: 10px;
+}
+.from_inputContainer label span{
+    color: #435366;
+}
+.from button{
+    width: 100%;
+    padding: 10px;
+}
+.from p{
+    margin: 20px 0;
+}
+.from p span{
+    color:var(--primary);
+}
+.error{
+    font-size: 14px;
+    color: red;
+}
+.errorinput{
+    border: 1px solid red;
+}
+
+@media(max-width:720px){
+.from{
+    position: static;
+}
+}
+@media(max-width:600px){
+.from{
+    position: static;
+    width: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px  15px;
+}
+.from .from_upperInputs{
+    flex-direction: column;
+}
+.from_upperInputs .from_inputContainer{
+    width: 100%;
+    margin: 10px 0;
+}
+}

@@ -1,26 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Montserrat:wght@600&family=Open+Sans&family=Poppins:wght@300;500;600&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-
+:root{
+  --primary:#126FED;
+  --heading-text:#28334E;
+  --text-color:#435366;
+  --black:#1A1A1A;
+  --input-color:#F9FAFE;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
+input{
+  border: 1px solid #0F1B4D0F;
+ outline: none;
+ background: var(--input-color);
+ border-radius: 4px;
+}
+input::placeholder{
+  color: #435366;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  
+}
+button{
+  background: var(--primary);
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  border-radius: 6px;
+}
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@media(max-width:500px){
+input::placeholder{
+  font-size: 12px;
+}
 }
