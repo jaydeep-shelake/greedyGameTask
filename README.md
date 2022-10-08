@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Greedy Game
 
-## Getting Started
+<div align="center">
+  <img width="200px" src="./assets/logo.png"/>
+</div>
+<br>
 
-First, run the development server:
+## ⚙️ Detailed Features
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Navbar and form are stiky at deskstop view
+- Page is responsive for mobile and Tablets
+- Page support all browsers (chrome,firefox and microsoft edge)
+- Page speed is optimized upto 97%
+- From validation is done for all fields using vanilla React no third party libraries
+- Followed best practices for NextJS application
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech and Tools Used
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Next.JS and CSS
+- VS code,Netlify
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Decisions and Assumptions
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Even the UI was of single page ,I made decisions to go
+  with component based designed which helped me structure the code properly and made the components reusable
+- For styling I did't used any css framework instead of the I gone with custom css (module css)
+- Followed proper semantic HTML
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+## Home Page (Chrome)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="./chrome.png" width='800' height='auto'>
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Home Page (Edge)
 
-## Deploy on Vercel
+<img src="./edge.png" width='800' height='auto'>
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Home Page (Firefox)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="./firefox.png" width='800' height='auto'>
+<br>
+
+## Lighthouse
+
+<img src="./lighthouse.png" width='800' height='auto'>
+<br>
+
+### LINK :
+
+https://greedy-game-task.vercel.app/
