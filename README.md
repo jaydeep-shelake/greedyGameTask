@@ -17,7 +17,7 @@
 ## 🚀 Tech and Tools Used
 
 - Next.JS and CSS
-- VS code,Netlify
+- VS code , Vercel
 
 ## Decisions and Assumptions
 
